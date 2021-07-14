@@ -1,0 +1,52 @@
+// Place all the styles related to the clothes controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: https://sass-lang.com/
+
+head{
+    max-width: 100%;
+    overflow-x: hidden;
+
+}
+.home-img{
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    object-position: 50% 30%; 
+    position: relative;
+    margin-top: 7%;
+    color: grey;
+    opacity: .7px;
+
+}
+.navbar{
+    background: white;
+    // position: fixed;
+    z-index: 1000;
+    /* top: -50px; */
+    width:100%;
+    padding: 15px 0 ;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    border: black;
+    border-style: solid;
+    // border-width: thick;
+    
+}
+.navbar .max-width{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar .menu li{
+    list-style: none;
+    display: inline-block;
+    position: relative;
+    // left: -70%;
+}
+.navbar .menu li a{
+    color:black;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 18px;
+    font-weight: 500;
+    // margin-left: 25px;
+}
